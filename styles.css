@@ -1,5 +1,5 @@
 body{
-    background-color: #EEE9DA;
+    background-color: #ecded1;
     font-family: "Lucida Console", "Courier New", monospace;
     margin: 0px;
     
@@ -8,7 +8,7 @@ body{
 hr{
     border-style: none;
     height: 0px;
-    border-top: dotted #40513B;
+    border-top: dotted #dfc9b4;
     border-width: 5px;
     width: 15%;
     
@@ -74,4 +74,26 @@ a{
 .pic{
     border-radius: 50%;
     width: 150px;
+}
+.nav{
+    display: flex;
+    
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    
+}
+
+.nava{
+    padding: 20px;
+    width: 100%;
+}
+
+.nava:hover{
+    color: rgba(211,180,151,255);
+    font-size: 125%;
+    
+}
+.me{
+    padding-left:60px ;
 }
