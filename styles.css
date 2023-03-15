@@ -26,12 +26,12 @@ h6{
 }
 
 h3{
-    color: #395B64;
+    color: Black;
     font-size: 22px;
 }
 
 p{
-    color: #395B64;
+    color: #492F10;
 }
 
 a{
@@ -65,7 +65,7 @@ a{
     border: 2px;
 }
 .headtxt{
-    padding-top: 300px;
+    padding-top: 320px;
     padding-right: 50px;
     margin: 0px;
     flex:4;
@@ -73,7 +73,7 @@ a{
 }
 .pic{
     border-radius: 50%;
-    width: 150px;
+    width: 200px;
 }
 .nav{
     display: flex;
@@ -97,3 +97,60 @@ a{
 .me{
     padding-left:60px ;
 }
+
+
+#About{
+    width: 100%;
+    height: 350px;
+    display:block;
+    margin: 0px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#Education{
+    width: 100%;
+    
+    display:block;
+    
+    text-align: center;
+    padding-top: 100px;
+    margin: 0px;
+
+
+    
+
+}
+
+.ed{
+    height: 450px;
+}
+.txt{
+    padding-top: 50px;
+    padding-left: 20px;
+
+}
+
+#Work{
+    width: 100%;
+    
+    display:block;
+    
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+.last{
+    width: 100%;
+    height: 450px;
+    display:block;
+    margin: 0px;
+    text-align: center;
+    
+}
+.tabs{
+    padding-left: 20px;
+}
+
