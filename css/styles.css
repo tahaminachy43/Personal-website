@@ -1,6 +1,7 @@
 body{
-    background-color: #EDF1D6;
+    background-color: #EEE9DA;
     font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0px;
     
 }
 
@@ -15,23 +16,44 @@ hr{
 }
 
 h1{
-    color: #40513B;
-    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    
+}
+
+h6{
+    color: black;
+    font-size: 12px;
 }
 
 h3{
-    color: #40513B;
+    color: #395B64;
     font-size: 22px;
 }
 
 p{
-    color: 609966;
+    color: #395B64;
 }
 
 a{
-    color: #40513B;
+    color: #395B64;
     text-decoration: none;
     font-weight: bold;
     font-size: 15px;
     font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.main{
+    background-color: #A5C9CA;
+    width: 100%;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+.pic{
+    border-radius: 50%;
+    width: 150px;
 }
