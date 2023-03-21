@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,30 +6,39 @@
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Moon</title>
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/android-chrome-512x512.png">
         
     </head>
 
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td> <img src="/images/_HAX2263 3-modified.png" alt= "Moon's Image"></td>
-                <td> <h1> Moon</h1>
-                    <h6> <em>Computer Science student at the University of Calgary</em></h6>
-                </td>
-            </tr>
-        </table>
+
+        <div class="nav">
+            <a href="#About" class="nava me"><h5>About me</h5></a> 
+            <a href="#Education" class="nava"><h5>Education</h5></a>
+            <a href="#Work" class="nava"><h5>Work Experience</h5></a>
+            <a href="Projects.html" class="nava"><h5>Projects</h5></a>
+            <a href="Contact.html" class="nava"> <h5>Contact Me</h5></a>
+        </div>
+
+        <div class="main">
+            <div class="headimg">
+                <img class="pic" src="images/Fotor_AI.png" alt= "Moon's Image">
+            </div>
+            <div class="headtxt">
+                <h1> Moon</h1>
+            <h6> 
+                <em>Computer Science student at the University of Calgary</em>
+            </h6>
+            </div>
+            
+                    
+
+        </div>
         
         
-        <table cellspacing="15">
-            <tr>
-                <td> <a href="#About"<h5>About me</h5></a> </td>
-                <td><a href="#Education"><h5>Education</h5></a></td>
-                <td><a href="#Work"><h5>Work Experience</h5></a></td>
-                <td><a href="Projects.html"><h5>Projects</h5></a></td>
-                <td><a href="Contact.html" > <h5>Contact Me</h5></a></td>
-            </tr>
-        </table>
+       
+        
         
         
         
@@ -36,58 +46,68 @@
 
         <hr>
 
-        <h3 id="About">About me </h3>
+        <div id="About">
+            <h3>About me </h3>
         <p> I am Tahamina Mostafa Chowdhury. My nickname is Moon and that's what i liked to be called. I am 2nd year student at the University of Calgary. I am also the president of Computer Science Undergraduate soceity at the university of Calgary.  </p>
+        </div>
+        
 
         <hr>
+        <div class="ed">
+            <h3 id="Education">Education</h3>
+            <div class="txt">
+                <ul>
+                    <li><h5><em>Bachaelor of Computer Science </em></h5></li>
+                    <p> <em> 2nd Year at the university of calgary</em></p>
 
-        <h3 id="Education">Education</h3>
-        <h5>Bachaelor of Computer Science </h5>
-        <p> <em> 2nd Year at the university of calgary</em></p>
+                    <li><h5><em>Chittagong Grammar School</em> </h5></li>
+                    <p> <em> graduated Highschool on 2020</em></p>
 
-        <h5>Chittagong Grammar School </h5>
-        <p> <em> graduated Highschool on 2020</em></p>
-
-        <hr>
-
-        <h3 id="Work">Work Experience</h3>
-
-        <table cellspacing="25">
-            <thead>
-                <th>
-                    Date
-                </th>
-                <th>
-                    Work
-                </th>
+                </ul>
                 
-            </thead>
-            <tbody>
-                <tr>
-                    <td> 2019-2020</td>
-                    <td> Coordinator</td>
+            </div>
+            
 
-                </tr>
-
-                <tr>
-                    <td> 2020-2021</td>
-                    <td> Accounting intern</td>
-                </tr>
-
-                <tr>
-                    <td>2021-2021</td>
-                    <td>Teacher</td>
-                </tr>
-                
-                
-            </tbody>
-        </table>
-
+        </div>
 
         
 
+        <hr>
+        <div class="last">
+            <h3 id="Work">Work Experience</h3>
+
+            <table cellspacing="25" class="tabs">
+                <thead>
+                    <th>
+                        Date
+                    </th>
+                    <th>
+                        Work
+                    </th>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 2019-2020</td>
+                        <td> Coordinator</td>
     
-        
+                    </tr>
+    
+                    <tr>
+                        <td> 2020-2021</td>
+                        <td> Accounting intern</td>
+                    </tr>
+    
+                    <tr>
+                        <td>2021-2021</td>
+                        <td>Teacher</td>
+                    </tr>
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+ 
         
     </body>
 </html>
