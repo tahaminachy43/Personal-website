@@ -1,0 +1,343 @@
+body{
+    background: hsla(258, 70%, 21%, 1);
+
+    background: linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    background: -moz-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    background: -webkit-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#261059", endColorstr="#524175", GradientType=1 );
+    margin:0px;
+    width: 1470px;
+    height: 100%;
+    
+    
+}
+.body1{
+    width: 1470px;
+    height: 800px;
+    background-color: #EEF1FF;
+    background-image: url(Purple\ Plain\ Wallpaper_resized.jpg);
+    
+    
+}
+
+/* Nav decoration */
+
+nav{
+    height: 30px;
+    
+    position: sticky;
+    padding: 10px;
+    
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    font-family: 'Archivo Narrow', sans-serif;
+    
+    
+    
+
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: inline;
+    color: hsla(258, 70%, 21%, 1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    color: #EEF1FF;
+    font-size: 125%;
+}
+
+.logo{
+    
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: hsla(258, 70%, 21%, 1);
+    display: inline;
+    
+    
+}
+
+
+#container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+
+/* Image resize and positioning */
+
+.image{
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.maintext{
+    display: flexbox;
+    width: 600px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 120px;
+    border-style: inset;
+    border-radius: 20px;
+    padding: 15px;
+    background: hsla(258, 70%, 21%, 1);
+
+    background: linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    background: -moz-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    background: -webkit-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#261059", endColorstr="#524175", GradientType=1 );
+    color: #EEF1FF;
+
+    
+}
+
+h1{
+    font-size: 48px;
+    font-family: 'Donegal One', serif;
+}
+
+p{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+/* Done with main body next have to do work experiance*/
+
+
+#education{
+    width: 1470px;
+    height: 800px;
+    background: hsla(258, 70%, 21%, 1);
+
+    background: linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    background: -moz-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    background: -webkit-linear-gradient(90deg, hsla(258, 70%, 21%, 1) 0%, hsla(260, 29%, 36%, 1) 68%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#261059", endColorstr="#524175", GradientType=1 );
+    color: #EEF1FF;
+    
+    
+    
+}
+
+.second{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+h2{
+    font-family: 'Donegal One', serif;
+    font-size: 38px;
+    padding: 20px 30px;
+    color: #EEF1FF;
+    margin-top: 0;
+}
+
+.image2{
+    padding: 20px;
+    margin-left: 200px;
+    border-radius: 30px;
+}
+
+h4{
+    font-family: 'Donegal One', serif;
+    font-size: 28px;
+    color: #EEF1FF;
+}
+
+.subtext{
+    color: #EEF1FF;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 50px;
+    width: 400px;
+}
+
+#Work{
+    margin: 0;
+    width: 1470px;
+    height: 1000px;
+    
+    
+    background-color: hsla(258, 70%, 21%, 1);
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #EEF1FF;
+}
+
+.timeline{
+    
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #EEF1FF;
+}
+
+.timeline_component{
+    margin: 0px 20px 20px 20px;
+
+}
+
+.timeline_component_bg{
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.timeline_date_right{
+    text-align: right;
+}
+
+.timeline_middle{
+    position:relative;
+    background: white;
+}
+.timeline_point{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+}
+
+.timeline_point_bottom{
+    top:initial;
+    bottom: 0;
+}
+
+timeline_bottom{
+    margin-bottom: 0;
+}
+
+.txt{
+    margin:0px;
+    font-size: 24px;
+
+}
+
+p{
+    line-height: 1.5;
+}
+
+#contact{
+
+    background-image: url(Purple\ Plain\ Wallpaper_resized.jpg);
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    height: 800px;
+
+    
+}
+
+.what{
+    width: 0px;
+    position:relative;
+}
+
+.col-sm-6{
+    display: flexbox;
+    width: 600px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 120px;
+    
+    padding: 15px;
+}
+.special{
+    color: hsla(258, 70%, 21%, 1);
+    padding:5px;
+    word-spacing: 5px;
+}
+
+.image3{
+    border-radius: 50%;
+    
+}
+
+.prop{
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.col-s{
+    width:500px;
+    padding: 100px 0px 0px 50px;
+}
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #EEF1FF;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #EEF1FF; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:hsla(258, 70%, 21%, 1);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#EEF1FF; }
+

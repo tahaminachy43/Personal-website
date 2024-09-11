@@ -1,113 +1,177 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Moon</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="images/android-chrome-512x512.png">
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahamina's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Donegal+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="body1">  <!-- This is going to be page 1 and will be 1800*800 pixels. -->
+        <!-- This will contain a navigation bar that is always going to be on top.-->
+        <!-- This will contain a picture of me and some information about myself. -->
 
-    <body>
-
-        <div class="nav">
-            <a href="#About" class="nava me"><h5>About me</h5></a> 
-            <a href="#Education" class="nava"><h5>Education</h5></a>
-            <a href="#Work" class="nava"><h5>Work Experience</h5></a>
-            <a href="Projects.html" class="nava"><h5>Projects</h5></a>
-            <a href="Contact.html" class="nava"> <h5>Contact Me</h5></a>
-        </div>
-
-        <div class="main">
-            <div class="headimg">
-                <img class="pic" src="images/Fotor_AI.png" alt= "Moon's Image">
-            </div>
-            <div class="headtxt">
-                <h1> Moon</h1>
-            <h6> 
-                <em>Computer Science student at the University of Calgary</em>
-            </h6>
-            </div>
+        <nav>
+            <a href="#" class="logo">Tahamina</a>
             
-                    
-
-        </div>
-        
-        
-       
-        
-        
-        
-        
-        
-
-        <hr>
-
-        <div id="About">
-            <h3>About me </h3>
-        <p> I am Tahamina Mostafa Chowdhury. My nickname is Moon and that's what i liked to be called. I am 2nd year student at the University of Calgary. I am also the president of Computer Science Undergraduate soceity at the university of Calgary.  </p>
-        </div>
-        
-
-        <hr>
-        <div class="ed">
-            <h3 id="Education">Education</h3>
-            <div class="txt">
-                <ul>
-                    <li><h5><em>Bachaelor of Computer Science </em></h5></li>
-                    <p> <em> 2nd Year at the university of calgary</em></p>
-
-                    <li><h5><em>Chittagong Grammar School</em> </h5></li>
-                    <p> <em> graduated Highschool on 2020</em></p>
-
-                </ul>
+            <ul>
+                <li><a href="#"> Contact Me  </a></li>
+                <li><a href="#Work"> Experiance </a></li>
+                <li><a href="#education">  Education </a></li>
+                <li><a href="#container">  About me </a></li>
+                <li><a href="./599.html">CPSC 599 Projects</a></li>
                 
+            </ul>
+            
+        </nav>
+
+        <div id="container">
+            <div>
+                <img  class="image" src="Cropped_Image_resized.png" >
+
             </div>
             
+            <div class="maintext">
+                <h1>
+                    Tahamina's Portfolio
+                </h1>
+    
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem </p>
+
+            </div>
+            
+        </div>
+
+       
+    </div>
+
+    <div id="education">
+        <h2>Education</h2>
+        <div class="second">
+            <img class="image2" src="linux bash_resized.jpg">
+            <div class="subtext">
+                <h4>University Of Calgary</h4>
+                <p>2021 - present <br> Pursuing a degree in Computer Science while also being the President of Computer Science Undergraduate Society. Organised one of the biggest Hackathon in Calgary "CalgaryHacks".  </p>
+                <h4>Chittagong Grammar School</h4>
+                <p>2011 - 2020<br>Finished my middle school and highschool in CGS. Outside school work i did many volunteering works for which i received the GOLD certificate for the duke of Edinburgh award.  </p>
+
+            </div>
+        </div>
+    </div>
+    <div id="Work">
+        <h2>Experiances</h2>
+        <div class="timeline">
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date_right">
+                    Present
+                </div>
+            </div>
+
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+            </div>
+
+            <div class="timeline_component timeline_component_bg">
+                <p><b class="txt">President</b><br><b>Computer Science Undergraduate Society</b><br><br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+            </div>
+
+            <div class="timeline_component timeline_component_bg">
+                
+                <p><b class="txt">Coding Tutor</b><br><b>Engineering for kids</b><br><br> Experianced with Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+            </div>
+
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+            </div>
+
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date_left">
+                    12 December 2022
+                </div>
+            </div>
+
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date_right">
+                    Present
+                </div>
+            </div>
+
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+            </div>
+
+            <div class="timeline_component timeline_component_bg">
+                
+                
+                <p><b class="txt">Accounting Intern</b><br><b>Moon Express Pvt. Ltd</b><br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+            </div>
+
+            <div class="timeline_component timeline_bottom timeline_component_bg">
+                
+                <p><b class="txt">Summer Camp Councillor</b><br><b>Chittagong Grammar School</b><br><br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+            </div>
+
+            <div class="timeline_middle">
+                <div class="timeline_point"></div>
+                <div class="timeline_point timeline_point_bottom"></div>
+            </div>
+
+            <div class="timeline_component timeline_bottom">
+                <div class="timeline_date timeline_date_left">
+                    12 December 2022
+                </div>
+            </div>
+
+            
+
+
+
+
+
+        </div>
+        
+    </div>
+
+    <div id="contact">
+        <div class="col-sm-6">
+
+            <h2 class="special">Get in Touch </h2>
+            <h4 class="special">Looking forward to communicate. </h4>
+            <p class="special"> If you have any queries feel free to shoot me a text in social media or an email. Lorem Ipsum is simply dummy text of the printing and typesetting industry. printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+
+            <div>
+                <a class="prop" href="https://www.instagram.com/tahamina43/"><img src="instagram-icon-color-7.jpg (1).png"> </a>
+                <a class="prop" href="https://www.facebook.com/tahaminachy43/"><img class="image3" src="Unknown.png"></a>
+                <a class="prop" href="https://www.linkedin.com/in/tahamina-chowdhury/"><img class="image3" src="Unknown1.png"></a>
+                <a class="prop" href="https://github.com/tahaminachy43"><img class="image3" src="Unknown3.png"></a>
+            </div>
 
         </div>
 
         
-
-        <hr>
-        <div class="last">
-            <h3 id="Work">Work Experience</h3>
-
-            <table cellspacing="25" class="tabs">
-                <thead>
-                    <th>
-                        Date
-                    </th>
-                    <th>
-                        Work
-                    </th>
-                    
-                </thead>
-                <tbody>
-                    <tr>
-                        <td> 2019-2020</td>
-                        <td> Coordinator</td>
-    
-                    </tr>
-    
-                    <tr>
-                        <td> 2020-2021</td>
-                        <td> Accounting intern</td>
-                    </tr>
-    
-                    <tr>
-                        <td>2021-2021</td>
-                        <td>Teacher</td>
-                    </tr>
-                    
-                    
-                </tbody>
-            </table>
-        </div>
- 
         
-    </body>
+        <div class="col-s">
+
+            <form>      
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                <input type="submit" value="SUBMIT"/>
+            </form>
+            
+        </div>
+
+        
+    </div>
+
+</body>
 </html>
